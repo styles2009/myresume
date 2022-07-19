@@ -10,24 +10,25 @@ body {
 .top-nav {
 	width: 100%;
 	background: black;
-	min-height: 30px;
+	min-height: 20px;
 	padding: 10px;
 	position: fixed;
 	text-align: right;
 	
 }
 .nav .name {
-	display: block;
+	display: flex;
+	padding: 2px;
 	margin-right: auto;
-	color: white;
+	color: orange;
 	text-align: left;
 	font-size: large;
-	font-weight: bold;
+	font-weight: normal;
 }
 .nav{
   display: flex;
   justify-content: space-around;
-  font-weight: 500;
+  font-weight: normal;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -36,18 +37,18 @@ body {
 
 
 .nav .left-nav {
-	display: inline-grid;
-	margin-right: auto;
+	display: flex;
+	margin-right: right;
 	color: #33adff;
+	padding: 10px;
 	text-align: right;
 	font-size: large;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 header {
 	text-align: center;
-	
-	background-image: url(images/HamburgPort.jpg);
+	background: url('images/HamburgPort.jpg') no-repeat top center ;
 	background-size: cover;
 	overflow: hidden;
 	padding-top: 60px;
