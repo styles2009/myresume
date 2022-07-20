@@ -18,7 +18,7 @@ body {
 }
 .nav .name {
 	display: flex;
-	padding: 2px;
+	padding: 10px;
 	margin-right: auto;
 	color: orange;
 	text-align: left;
@@ -34,21 +34,32 @@ body {
   padding: 0;
 }
 
-
-
 .nav .left-nav {
 	display: flex;
-	margin-right: right;
-	color: #33adff;
+	margin-right: 5px;
+	color: orange;
 	padding: 10px;
+	padding-right: 25px;
 	text-align: right;
 	font-size: large;
 	font-weight: normal;
 }
 
+.nav .left-nav a:visited {
+  color: orange;
+}
+
+.nav .left-nav a:hover {
+  color: white;
+}
+
+
+
+
 header {
 	text-align: center;
 	background: url('images/HamburgPort.jpg') no-repeat top center ;
+	min-width: 105%;
 	background-size: cover;
 	overflow: hidden;
 	padding-top: 60px;
@@ -90,19 +101,34 @@ header .profile-image:hover {
 	max-width: 500px;
 	max-height: 500px;
 	text-align: left;
-	background: #fff;
-	border-bottom: 4px solid #ccc;
+	background: #f0f6fe;
+	border-bottom: 10px solid #f9a63b;
+	border-radius: 6px;
+	}
+
+	.card2 {
+	margin: 40px;
+	padding: 20px 40px 40px;
+	max-width: 500px;
+	max-height: 500px;
+	text-align: left;
+	background: #fefaf5;
+	border-bottom: 10px solid #3b8ef9;
 	border-radius: 6px;
 	}
 
 .card-title {
 	text-align: center;
-	border:3px solid orange;
+	border:3px solid #f1a35b;
 	border-radius: 10px;
 	margin-top: 15px;
 }
 .card:hover {
-	border-color: #ff99ff;
+	border-color: #3b8ef9;
+}
+
+.card2:hover {
+	border-color: #f9a63b;
 }
 
 ul.skills {
